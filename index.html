@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to my world!</title>
+    <meta
+      name="description"
+      content="I believe every brand has a story to tell, and I, Anas, am its visual storyteller. Through the power of design, I weave narratives that captivate audiences and build lasting connections."
+    />
+    <meta name="theme-color" content="#fffaf2" />
+
+    <!-- bootstrap css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <!-- bootstrap icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.2/font/bootstrap-icons.min.css"
+      integrity="sha512-D1liES3uvDpPrgk7vXR/hR/sukGn7EtDWEyvpdLsyalQYq6v6YUsTUJmku7B4rcuQ21rf0UTksw2i/2Pdjbd3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="css/style.min.css" />
+  </head>
+  <body>
+    <!-- priamry-navbar -->
+    <nav
+      class="d-flex primary-nav w-100 justify-content-between align-items-center flex-column flex-md-row my-3"
+      style="height: 70px"
+    >
+      <!-- logo -->
+      <div id="logo" class="d-flex w-100 w-md-50">
+        <a href="/">ANAS</a>
+      </div>
+
+      <!-- navigations -->
+
+      <ul
+        class="d-flex nav-items justify-content-between align-items-center gap-5 flex-column flex-md-row w-md-50"
+      >
+        <li><a href="/">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#featured-work">Work</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- hamburger menu icon -->
+    <div class="hamburger">
+      <span></span>
+      <span></span>
+    </div>
+
+    <!-- main section -->
+    <main>
+      <!-- hero-section -->
+      <section
+        id="hero-section"
+        class="d-flex justify-content-between align-items-center flex-column flex-md-row"
+      >
+        <div class="row">
+          <!-- left side -->
+          <div class="col-12 col-md-6 col-xl-8 position-relative left-side">
+            <!-- punch-line -->
+            <h1 id="punch-line">
+              It’s your world. <br />
+              I’ll help you<br />
+              design it.
+            </h1>
+            <!-- star image -->
+            <img
+              src="img/star.svg"
+              alt="star"
+              loading="lazy"
+              class="position-absolute"
+            />
+            <!-- short description -->
+            <p class="lh-lg">
+              I believe every brand has a story to tell, and I, Anas, am its
+              visual storyteller. Through the power of design, I weave
+              narratives that captivate audiences and build lasting connections.
+              Whether it's a vibrant illustration that sparks the imagination or
+              a minimalist logo that speaks volumes, I translate your message
+              into impactful visuals that move hearts and minds.
+            </p>
+
+            <div
+              class="action-btns d-flex justify-content-between align-items-center gap-3 gap-md-0"
+              style="width: 100%"
+            >
+              <!-- hire me btn -->
+              <button id="hire-me">
+                <a href="mailto:mdp020479@gmail.com">Hire me</a>
+              </button>
+              <!-- resume download btn -->
+              <button id="resume">
+                <a href="#">
+                  Download my resume
+                  <img
+                    src="img/resume-icon.svg"
+                    alt="resume-icon"
+                    loading="lazy"
+                /></a>
+              </button>
+            </div>
+          </div>
+
+          <!-- right side -->
+          <div
+            class="right-side col-12 col-md-6 col-xl-4 position-relative justify-content-center align-items-center d-flex"
+          >
+            <!-- hero section Image -->
+            <img
+              src="img/hero-section-img.png"
+              alt="hero section Image"
+              class="img-fluid"
+              loading="lazy"
+            />
+
+            <!-- other-images -->
+            <img
+              src="img/star-2.svg"
+              alt="star-2"
+              class="position-absolute star-arrow"
+              loading="lazy"
+              style="right: 85%; top: 10%"
+            />
+            <img
+              src="img/star-2.svg"
+              alt="star-2"
+              class="position-absolute top-50 star-arrow"
+              loading="lazy"
+              style="left: 65%"
+            />
+            <img
+              src="img/star-2.svg"
+              alt="star-2"
+              class="position-absolute star-arrow"
+              loading="lazy"
+              style="left: 85%; top: 20%"
+            />
+            <img
+              src="img/arrow.svg"
+              alt="arrow"
+              class="arrow position-absolute top-50 start-0 star-arrow"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- featured-work-section -->
+      <section id="featured-work" class="my-5 pt-5">
+        <h2>Featured Work</h2>
+        <div
+          class="row featured-work-container mx-auto mt-3"
+          data-masonry='{"percentPosition": true }'
+          style="position: relative; height: 690px"
+        >
+          <!-- 1st image -->
+          <div
+            class="col-sm-6 col-lg-4 mb-4"
+            style="position: absolute; left: 0%; top: 0px"
+          >
+            <div class="card">
+              <img src="img/1.png" alt="1_image" class="img-fluid" />
+            </div>
+          </div>
+
+          <!-- 2nd image -->
+          <div
+            class="col-sm-6 col-lg-4 mb-4"
+            style="position: absolute; left: 0%; top: 0px"
+          >
+            <div class="card">
+              <img src="img/2.png" alt="2_image" class="img-fluid" />
+            </div>
+          </div>
+
+          <!-- 3rd image -->
+          <div
+            class="col-sm-6 col-lg-4 mb-4"
+            style="position: absolute; left: 0%; top: 0px"
+          >
+            <div class="card">
+              <img src="img/3.png" alt="3_image" class="img-fluid" />
+            </div>
+          </div>
+
+          <!-- 4th image -->
+          <div
+            class="col-sm-6 col-lg-4 mb-4"
+            style="position: absolute; left: 0%; top: 0px"
+          >
+            <div class="card">
+              <img src="img/4.png" alt="4_image" class="img-fluid" />
+            </div>
+          </div>
+
+          <!-- 5th image -->
+          <div
+            class="col-sm-6 col-lg-4 mb-4"
+            style="position: absolute; left: 0%; top: 0px"
+          >
+            <div class="card">
+              <img src="img/5.png" alt="5_image" class="img-fluid" />
+            </div>
+          </div>
+
+          <!-- 6th image -->
+          <div
+            class="col-sm-6 col-lg-4 mb-4"
+            style="position: absolute; left: 0%; top: 0px"
+          >
+            <div class="card">
+              <img src="img/6.png" alt="6_image" class="img-fluid" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- about section -->
+      <section id="about">
+        <h2>About</h2>
+
+        <div class="row about-container mt-3">
+          <div
+            class="col-12 col-md-5 col-xl-4 position-relative justify-content-center align-items-center d-flex"
+          >
+            <!-- about section Image -->
+            <img
+              src="img/about-section-img.png"
+              alt="about section Image"
+              style="width: 350px; max-height: 600px; object-fit: contain"
+              class="img-fluid mb-5 mb-md-0"
+            />
+
+            <!-- other-images-for-design -->
+            <img
+              src="img/star-2.svg"
+              alt="star-2"
+              class="position-absolute"
+              loading="lazy"
+              style="right: 85%; top: 0%"
+            />
+
+            <img
+              src="img/star-2.svg"
+              alt="star-2"
+              class="position-absolute"
+              loading="lazy"
+              style="left: 85%; top: 20%"
+            />
+            <img
+              src="img/arrow.svg"
+              alt="arrow"
+              class="arrow position-absolute rotate-45 top-0 start-0"
+              loading="lazy"
+            />
+          </div>
+          <div class="col-12 col-md-7 col-xl-8">
+            <!-- heading -->
+            <h3>Hello, I’m Talat Mahmud Anas</h3>
+            <!-- story -->
+            <p class="lh-lg mt-3">
+              In the midst of the COVID-19 pandemic, I discovered a newfound
+              interest in graphic design. As the world slowed down, I seized the
+              opportunity to immerse myself in this creative field, eagerly
+              absorbing knowledge and honing my skills.
+              <br /><br />
+              Fuelled by this newfound passion, I embarked on a journey towards
+              a career in graphic design. Since then, I've accomplished numerous
+              remarkable projects that you can explore in my featured work
+              section. From captivating visuals to memorable branding, my
+              portfolio showcases the breadth of my abilities.
+              <br /><br />
+              As a designer, my primary goal is to bring your brand's vision to
+              life. I understand the importance of crafting designs that reflect
+              your unique identity and resonate with your target audience. With
+              my expertise and creativity, I can assist you in designing a brand
+              that truly represents who you aspire to be.
+              <br /><br />
+              Let's collaborate and create something extraordinary together.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- contact section -->
+      <section id="contact" class="my-5">
+        <h2>Contact</h2>
+        <div class="row contact-container">
+          <div class="col-12 col-md-6">
+            <form
+              class="contact-form w-full"
+              action="https://getform.io/f/ce472653-870c-43f7-b996-9fce1e7fc5e8"
+              method="post"
+            >
+              <!-- name -->
+              <div>
+                <label for="email">Name</label
+                ><input
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="John doe"
+                />
+              </div>
+
+              <!-- email -->
+              <div>
+                <label for="email">Email</label
+                ><input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="johndoe@mail.com"
+                />
+              </div>
+
+              <!-- subject -->
+              <div>
+                <label for="subject">Subject</label
+                ><input
+                  type="subject"
+                  name="subject"
+                  id="subject"
+                  placeholder="I want to hire you."
+                />
+              </div>
+
+              <!-- message -->
+              <div>
+                <label for="message">Message</label>
+                <textarea
+                  name="message"
+                  id="message"
+                  cols="30"
+                  rows="10"
+                  placeholder="Hey! Will you work for me."
+                ></textarea>
+              </div>
+              <!-- submit btn -->
+              <button>Send</button>
+            </form>
+            <!-- social links -->
+            <div
+              class="social-links d-flex justify-content-between align-items-center flex-row"
+            >
+              <h5>Follow me:</h5>
+              <a href="#">
+                <i class="bi bi-facebook"></i>
+              </a>
+              <a href="#">
+                <i class="bi bi-whatsapp"></i>
+              </a>
+              <a href="#">
+                <i class="bi bi-github"></i>
+              </a>
+              <a href="#">
+                <i class="bi bi-twitter-x"></i>
+              </a>
+              <a href="#">
+                <i class="bi bi-instagram"></i>
+              </a>
+              <a href="#">
+                <i class="bi bi-threads"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- image icon for design only -->
+          <div
+            class="col-12 col-md-6 position-relative justify-content-center align-items-center d-flex"
+          >
+            <img src="img/it-girl.svg" alt="" class="img-fluid" />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="mt-3">
+      <div
+        class="d-flex w-100 justify-content-between align-items-center flex-column flex-md-row"
+      >
+        <!-- logo -->
+        <div id="footer-logo" class="d-flex w-100 w-md-50">
+          <a href="/">ANAS</a>
+        </div>
+
+        <!-- navigations -->
+        <ul
+          class="d-flex nav-items justify-content-md-between justify-content-center align-items-center gap-5 flex-row w-100 w-md-50"
+        >
+          <li><a href="/">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#featured-work">Work</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- copyright -->
+      <div
+        class="d-flex w-100 justify-content-center align-items-center py-2"
+        style="background-color: #000"
+      >
+        <p>© copywrite 2024, Talat Mahmud Anas.</p>
+      </div>
+    </footer>
+
+    <!-- masonry-layout js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"
+      integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D"
+      crossorigin="anonymous"
+      async
+    ></script>
+    <!-- bootstrap js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
